@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SouqAutomationSuite">
+    <listeners>
+        <listener class-name="reports.ExtentReportListener" />
+    </listeners>
+    <test name="SouqAutomationTests">
+        <classes>
+            <class name="tests.login.signInTest" />
+            <class name="tests.register.SignUpTest" />
+            <class name="tests.cartTests.addToCart" />
+        </classes>
+    </test>
+</suite>
